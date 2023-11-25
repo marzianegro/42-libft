@@ -48,9 +48,7 @@ This is a fundamental project that challenges students to create their own C lib
 
 int main()
 {
-    char *str;
-
-	str = "Hello, libft!";
+    char *str = "Hello, libft!";
     ft_putstr(str);
     return (0);
 }
